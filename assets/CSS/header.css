@@ -1,0 +1,77 @@
+@import url(/assets/CSS/font.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header {
+    background-image: url(/assets/IMAGE/img-header/Header\ Background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 506px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 26px;
+    height: 366px;
+    gap: 24px;
+}
+
+.header-title {
+    font-family: Luckiest Guy;
+    height: 64px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header-text {
+    font-family: open sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.36rem;
+    text-align: left;
+    height: 132px;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 122px;
+}
+
+.btn-white {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 54px;
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-white-text {
+    font-family: open sans;
+}
+
+.btn-black {
+    display: flex;
+    background-color: #000;
+    height: 52px;
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-black-text {
+    font-family: open sans;
+    color: #FFFFFF;
+}

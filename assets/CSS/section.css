@@ -1,0 +1,75 @@
+@import url(/assets/CSS/font.css);
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 27px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-family: Open Sans;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.04rem;
+    text-align: left;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.36rem;
+    text-align: left;
+    height: 88px;
+}
+
+/*content 1*/
+
+.content.content-1 {
+    height: 573px;
+}
+
+.title.title-1 {
+    height: 99px;
+}
+
+/*content 2*/
+
+.content.content-2 {
+   height: 507px;
+}
+
+.title.title-2 {
+    height: 33px;
+}
+
+/*content 3*/
+
+.content.content-3 {
+    height: 507px;
+ }
+
+ .title.title-3 {
+    height: 33px;
+}
+
+/*content 4*/
+
+.content.content-4 {
+    height: 560px;
+}
+
+.title.title-4 {
+    height: 64px;
+}
+
+.text.text-4 {
+    height: 110px;
+}
+

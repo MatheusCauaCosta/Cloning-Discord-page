@@ -1,0 +1,135 @@
+@media only screen and (orientation: landscape) {
+    header {
+        background-image: url(/assets/IMAGE/img-landscape/Header\ Background-landscape.png);
+        height: 459px;
+        margin-bottom: 32px;
+    }
+
+    .header-content {
+        margin-left: 0px;
+    }
+
+    .header-title {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+        height: 112px;
+    }
+
+    .header-text {
+        width: 757px;
+        height: 66px;
+        text-align: center;
+    }
+
+    .header-btn {
+        flex-direction: row;
+        height: 44px;
+    }
+
+    .btn-white {
+        width: 205px;
+        height: 44px;
+    }
+
+    .btn-black {
+        width: 281px;
+        height: 44px;
+    }
+
+    .content {
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        padding: 0px;
+        margin-bottom: 64px;
+    }
+
+    .container-text {
+        gap: 16px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+    }
+
+    /*content 1*/
+    .content.content-1 {
+        height: 394px;
+    }
+
+    .title.title-1 {
+        width: 329px;
+        height: 270px;
+    }
+
+    .text.text-1 {
+        width: 348px;
+        height: 88px;
+    }
+
+    /*content 2*/
+
+    .content.content-2 {
+        flex-direction: row-reverse;
+        height: 448px;
+    }
+
+    .title.title-2 {
+        margin-top: 100px;
+        width: 328px;
+        height: 108px;
+    }
+
+    .text.text-2 {
+        width: 348px;
+        height: 88px;
+    }
+
+    /*content 3*/
+    .content.content-3 {
+        height: 448px;
+    }
+
+    .title.title-3 {
+        margin-top: 80px;
+        width: 329px;
+        height: 108px;
+    }
+
+    .text.text-3 {
+        width: 348px;
+        height: 110px;
+    }
+
+    /*content 4*/
+
+    .content.content-4 {
+        flex-direction: column;
+        align-items: center;
+        height: 744px;
+
+    }
+
+    .title.title-4 {
+        font-family: Luckiest Guy;
+        font-weight: 400;
+        line-height: 2.5rem;
+        width: 608px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .text.text-4 {
+        width: 802px;
+        height: 44px;
+    }
+
+    /*footer*/
+
+    footer img {
+        height: 134px;
+        width: 100vw;
+    }
+}
