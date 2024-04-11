@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(/assets/IMAGE/img-header/Header\ Background.png);
+    background-image: url(/assets/IMAGE/img-header/HeaderBackground.png);
     display: flex;
     flex-direction: column;
     justify-content: center;

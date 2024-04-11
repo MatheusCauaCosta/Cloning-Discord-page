@@ -1,6 +1,6 @@
 @media only screen and (orientation: landscape) {
     header {
-        background-image: url(/assets/IMAGE/img-landscape/Header\ Background-landscape.png);
+        background-image: url(/assets/IMAGE/img-landscape/HeaderBackground-landscape.png);
         height: 459px;
         margin-bottom: 32px;
     }
